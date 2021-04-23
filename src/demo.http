@@ -1,0 +1,27 @@
+# http://localhost:8080/contacts/
+
+# GET http://localhost:8080/contacts/1
+
+# 
+# POST http://localhost:8080/contacts HTTP/1.1
+# content-type: application/json
+
+# { 
+#     "name": "Java",
+#     "email": "java@example.com",
+#     "phone": "(11) 111-1111"
+# }
+
+################################
+
+PUT http://localhost:8080/contacts/3 HTTP/1.1 
+content-type: application/json
+
+{
+    "name": "Java Spring",
+    "email": "java.spring@example.com",
+    "phone": "(11) 111-1111"
+}
+
+################################
+# DELETE http://localhost:8080/contacts/5
